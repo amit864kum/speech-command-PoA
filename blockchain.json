@@ -1,0 +1,1889 @@
+{
+    "chain": [
+        {
+            "index": 0,
+            "timestamp": 1757488250.01427,
+            "records": [],
+            "proof": 0,
+            "prev_hash": "0",
+            "model_hash": "0",
+            "hash": "d1dad2121cb3c846ed7a36f8a8ef5b19a6afcf3dafda54e2654cc70d621e2265",
+            "miner": "Genesis",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 1,
+            "timestamp": 1757488250.0154984,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "left",
+                            "confidence": 44.844597578048706,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 68.95155906677246,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 63.24257850646973,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 59.64953303337097,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 58.558326959609985,
+                            "true_word": "on"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 75.08298754692078,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 41.49908721446991,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 37.608081102371216,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 55.6458055973053,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.80884194374084,
+                            "true_word": "yes"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 54.11853790283203,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 42.78879165649414,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 72.57423996925354,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 82.04266428947449,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 62.45883107185364,
+                            "true_word": "on"
+                        }
+                    ]
+                }
+            ],
+            "proof": 314,
+            "prev_hash": "d1dad2121cb3c846ed7a36f8a8ef5b19a6afcf3dafda54e2654cc70d621e2265",
+            "model_hash": "bd572651133d07dc37c50d8f8d4d6a6d1107cca8b7f203d31333b975f5c84226",
+            "hash": "009467cda05360093ac2e4c1be5fd89c407b826a8f6aa0aceb43be94d347a64b",
+            "miner": "Device_B",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 2,
+            "timestamp": 1757488250.0155704,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "no",
+                            "confidence": 51.203322410583496,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 56.86417818069458,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 84.37049388885498,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.69235062599182,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 97.48168587684631,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "right",
+                            "confidence": 39.51172232627869,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 70.06386518478394,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 88.19758296012878,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 90.43824076652527,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 68.25581192970276,
+                            "true_word": "go"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 38.55471312999725,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 91.9213056564331,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 37.00107038021088,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 76.2547492980957,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 72.20564484596252,
+                            "true_word": "left"
+                        }
+                    ]
+                }
+            ],
+            "proof": 276,
+            "prev_hash": "009467cda05360093ac2e4c1be5fd89c407b826a8f6aa0aceb43be94d347a64b",
+            "model_hash": "528027c563960f383004b94609d52e7b13a95b863a82d1b1ffc21e117bb1641a",
+            "hash": "006e46e6c5d7378e43b70f5ba66ed901355d1e9c432c949904bde26afb62ccfd",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 3,
+            "timestamp": 1757488250.0156038,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 69.67987418174744,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 99.82877373695374,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 56.98750019073486,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.9907374382019,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.9890923500061,
+                            "true_word": "yes"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "up",
+                            "confidence": 54.82574105262756,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 66.94893836975098,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 50.61533451080322,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.96989965438843,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 72.19588160514832,
+                            "true_word": "down"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 87.23616003990173,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 82.2793960571289,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 77.83529162406921,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 70.19705176353455,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 82.82901644706726,
+                            "true_word": "no"
+                        }
+                    ]
+                }
+            ],
+            "proof": 126,
+            "prev_hash": "006e46e6c5d7378e43b70f5ba66ed901355d1e9c432c949904bde26afb62ccfd",
+            "model_hash": "6ee0e0fc3eb2533f4fb2c14c6020f58081f384056c0a44d22dc21394b1d3924c",
+            "hash": "001b1c56599587e343668cd0ff05d8197fab62d925d6cfbb2876174c339dbfdd",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 4,
+            "timestamp": 1757488250.0156326,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 85.36222577095032,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 86.89275979995728,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 95.85904479026794,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 85.53395867347717,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 98.3182430267334,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 97.1221923828125,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 82.1088194847107,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 96.38922810554504,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.7073769569397,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 87.99510598182678,
+                            "true_word": "up"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 76.5913188457489,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 66.69975519180298,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.85367059707642,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.99569654464722,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.99984502792358,
+                            "true_word": "yes"
+                        }
+                    ]
+                }
+            ],
+            "proof": 132,
+            "prev_hash": "001b1c56599587e343668cd0ff05d8197fab62d925d6cfbb2876174c339dbfdd",
+            "model_hash": "d2a61db422629ed0c4ef9308f744f6188d90ec460ba6232dc83c4a525dee88c6",
+            "hash": "001cbaa01f9f0484ea1afb1c49d0f7b1d9951c60c9795b91b38a2e9c69505726",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 5,
+            "timestamp": 1757488250.0156603,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "up",
+                            "confidence": 67.72322654724121,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 97.76702523231506,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.98218417167664,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 99.71655011177063,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.94578957557678,
+                            "true_word": "yes"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "left",
+                            "confidence": 99.97225403785706,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 96.10132575035095,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 82.56110548973083,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.994957447052,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 99.9771773815155,
+                            "true_word": "down"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 97.90710210800171,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 82.37762451171875,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 47.43139147758484,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 93.56653690338135,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 96.05660438537598,
+                            "true_word": "right"
+                        }
+                    ]
+                }
+            ],
+            "proof": 44,
+            "prev_hash": "001cbaa01f9f0484ea1afb1c49d0f7b1d9951c60c9795b91b38a2e9c69505726",
+            "model_hash": "2ca3cb3069f51d22ecf12dc9e45dd7404fa0bc2d6479376931f0a6c4ae638d08",
+            "hash": "002ef9508668b1473ca220bc79d5330af08c9f2c424e3349c78f27ca53960079",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 6,
+            "timestamp": 1757488250.015687,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "right",
+                            "confidence": 24.12535846233368,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 41.31130278110504,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.80185031890869,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 40.37247896194458,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 45.809704065322876,
+                            "true_word": "left"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 31.229117512702942,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 56.77565336227417,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.67105388641357,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 58.34023952484131,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 36.705613136291504,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "no",
+                            "confidence": 58.01997184753418,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 51.54164433479309,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 79.3530285358429,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 56.82411789894104,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 49.961161613464355,
+                            "true_word": "up"
+                        }
+                    ]
+                }
+            ],
+            "proof": 174,
+            "prev_hash": "002ef9508668b1473ca220bc79d5330af08c9f2c424e3349c78f27ca53960079",
+            "model_hash": "e2e30d28c9a5ea939f0d9026db37adf288f28472aadefa512ec6ab578c8e8615",
+            "hash": "00404dfce87861af1e54728da8f10f61a5a72406e7a1957f9232d61e560f1c2b",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 7,
+            "timestamp": 1757488250.015714,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 97.65468835830688,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 87.20661401748657,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.56839084625244,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 57.813066244125366,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.93071556091309,
+                            "true_word": "stop"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 87.63543963432312,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 98.84616136550903,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 86.38011813163757,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 96.04610204696655,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 93.64476203918457,
+                            "true_word": "down"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 60.28209328651428,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 94.50163841247559,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 82.27603435516357,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 36.16710305213928,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 81.62204623222351,
+                            "true_word": "down"
+                        }
+                    ]
+                }
+            ],
+            "proof": 730,
+            "prev_hash": "00404dfce87861af1e54728da8f10f61a5a72406e7a1957f9232d61e560f1c2b",
+            "model_hash": "30f0074c0ebaa1dacfd0bf0d7ad1421118c876a52b4a1f71644a99ba4e36c8e4",
+            "hash": "0005e2e8608b8246fd9f0e0fae025595db126b43a3cd1154249f9f8767c74970",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 8,
+            "timestamp": 1757488250.0157409,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "left",
+                            "confidence": 97.38701581954956,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.70712661743164,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 35.91724336147308,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.84453320503235,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 40.17704129219055,
+                            "true_word": "down"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "up",
+                            "confidence": 58.21077227592468,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 88.74045014381409,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 49.83301758766174,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 85.41787266731262,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 65.17765522003174,
+                            "true_word": "on"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "right",
+                            "confidence": 37.174710631370544,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 63.630473613739014,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 95.75982689857483,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 54.622405767440796,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 97.47631549835205,
+                            "true_word": "go"
+                        }
+                    ]
+                }
+            ],
+            "proof": 166,
+            "prev_hash": "0005e2e8608b8246fd9f0e0fae025595db126b43a3cd1154249f9f8767c74970",
+            "model_hash": "10da6ee4e9fa36a6c27b1b9720b702dd93768d65d36f01c05339e6f77f2b1ffd",
+            "hash": "004e72d382ce45b57723daa9cee2b0822257eaf8639c9dd835da6a00a591a1e1",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 9,
+            "timestamp": 1757488250.015766,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 65.41194915771484,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 42.41454601287842,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.82848763465881,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.95251893997192,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 99.80602860450745,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 68.14202666282654,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 30.81737756729126,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 71.91402316093445,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.9907374382019,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 99.96682405471802,
+                            "true_word": "go"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 59.95102524757385,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 61.251676082611084,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 45.449963212013245,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 70.3748345375061,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 40.586525201797485,
+                            "true_word": "right"
+                        }
+                    ]
+                }
+            ],
+            "proof": 66,
+            "prev_hash": "004e72d382ce45b57723daa9cee2b0822257eaf8639c9dd835da6a00a591a1e1",
+            "model_hash": "868ab4382d6b4de793db7e1aac46d9cbbc1ef13c7870b1b680afafd65769c4c6",
+            "hash": "00fa7aa823e099cb2ee0e921163935140c7f57a05720f740eea67195fb18e33b",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 10,
+            "timestamp": 1757488250.015792,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 55.83792328834534,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 93.47968697547913,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 95.43024897575378,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 56.23464584350586,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 99.99505281448364,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 95.47960758209229,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 94.33749318122864,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 47.573766112327576,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 82.31091499328613,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 89.65728282928467,
+                            "true_word": "go"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 63.93962502479553,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 99.6480643749237,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 98.9840567111969,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.99905824661255,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 99.30753707885742,
+                            "true_word": "up"
+                        }
+                    ]
+                }
+            ],
+            "proof": 112,
+            "prev_hash": "00fa7aa823e099cb2ee0e921163935140c7f57a05720f740eea67195fb18e33b",
+            "model_hash": "c464974b30079e121a94c55fbf4504084c090987f29531b20ccd353c896d52fd",
+            "hash": "00210ccbde164f731658dd1b42f183235dae789cf058d2368cfedbb21ab6ce10",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 11,
+            "timestamp": 1757488250.015817,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "up",
+                            "confidence": 76.10605955123901,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 67.80163645744324,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 25.664594769477844,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 93.44810247421265,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 98.95049333572388,
+                            "true_word": "left"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "left",
+                            "confidence": 95.37684321403503,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 93.96491646766663,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 68.57772469520569,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 90.80025553703308,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 82.22880959510803,
+                            "true_word": "on"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "right",
+                            "confidence": 95.69735527038574,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 54.84863519668579,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 74.71988797187805,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 99.68718886375427,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.36496615409851,
+                            "true_word": "yes"
+                        }
+                    ]
+                }
+            ],
+            "proof": 7,
+            "prev_hash": "00210ccbde164f731658dd1b42f183235dae789cf058d2368cfedbb21ab6ce10",
+            "model_hash": "10c74775cadafa0fa847a1ceb942b7c110e5028d03360c2a21e125089b35260a",
+            "hash": "0041b7b4257854ec5ecda5e2467e162255a1a7f0f94be67dda6bbe7827af5996",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 12,
+            "timestamp": 1757488250.0158427,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "off",
+                            "confidence": 99.99017715454102,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 96.42671942710876,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 53.68385314941406,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 98.20854067802429,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.99878406524658,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "no",
+                            "confidence": 63.51839303970337,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 85.2648913860321,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 91.11189842224121,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 42.076659202575684,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 93.16912293434143,
+                            "true_word": "yes"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 75.17184019088745,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 96.25471234321594,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 71.37847542762756,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 82.8775942325592,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 70.78452110290527,
+                            "true_word": "down"
+                        }
+                    ]
+                }
+            ],
+            "proof": 378,
+            "prev_hash": "0041b7b4257854ec5ecda5e2467e162255a1a7f0f94be67dda6bbe7827af5996",
+            "model_hash": "b2643c93806e5d4c4469ab36f2ff05ebecbacec3fe1435bd97b69672350e77d7",
+            "hash": "0081184faf77fece645071fdc277e9fded36e3fef4059239fd500e6936cf8e67",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 13,
+            "timestamp": 1757488250.015868,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 91.88780784606934,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.99679327011108,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.99926090240479,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 98.67843985557556,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 90.46471118927002,
+                            "true_word": "stop"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.99700784683228,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 90.86077809333801,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 78.28744649887085,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.92896318435669,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.77880716323853,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "no",
+                            "confidence": 67.58773922920227,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 99.56775307655334,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 67.51623153686523,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 60.81991791725159,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.2026150226593,
+                            "true_word": "right"
+                        }
+                    ]
+                }
+            ],
+            "proof": 145,
+            "prev_hash": "0081184faf77fece645071fdc277e9fded36e3fef4059239fd500e6936cf8e67",
+            "model_hash": "5f7f270e0aa1f56b12aa5ae7e9090302ab1a5893ed5aadcfb49b08d251febfed",
+            "hash": "00cc9dc0c2316332759837e6e8baff5f77cb57735d7fe85c657b39418b96ed7a",
+            "miner": "Device_B",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 14,
+            "timestamp": 1757488250.0158932,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "right",
+                            "confidence": 95.07524967193604,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.99929666519165,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 57.3455810546875,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 91.88078045845032,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.34188723564148,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 99.65471625328064,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.9920129776001,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 66.92825555801392,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 77.4668037891388,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 96.89827561378479,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "no",
+                            "confidence": 89.53773975372314,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.9840497970581,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 98.2718288898468,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.99990463256836,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 98.92085194587708,
+                            "true_word": "up"
+                        }
+                    ]
+                }
+            ],
+            "proof": 255,
+            "prev_hash": "00cc9dc0c2316332759837e6e8baff5f77cb57735d7fe85c657b39418b96ed7a",
+            "model_hash": "6fb9373062f14f881c2f32857a70c47bcc83d546b38504673c741a5aa2f3f54c",
+            "hash": "0025a069ffa30c9549c91b53957e71c8015020c4f4f0c47712085e8c4d123fb0",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 15,
+            "timestamp": 1757488250.0159183,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 85.46808362007141,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 86.03061437606812,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 58.03844928741455,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 71.96323871612549,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 59.65114235877991,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "go",
+                            "confidence": 75.89297294616699,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 69.44543123245239,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 81.92631006240845,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 69.03187036514282,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 79.04570698738098,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 30.337947607040405,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 68.44659447669983,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 94.62956190109253,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 66.84655547142029,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 88.41120600700378,
+                            "true_word": "right"
+                        }
+                    ]
+                }
+            ],
+            "proof": 216,
+            "prev_hash": "0025a069ffa30c9549c91b53957e71c8015020c4f4f0c47712085e8c4d123fb0",
+            "model_hash": "4393c1f63eb546a0f047bab10a0dfeac737f6dad49c2e578e8cc3337f00bc1c8",
+            "hash": "000ae1259ba2602ec1130c52957e9d45f19d0d3f995a701ac013d381895fbe06",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 16,
+            "timestamp": 1757488250.0159445,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 46.74340486526489,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 84.77360606193542,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 97.36574292182922,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 98.7708330154419,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 81.99384808540344,
+                            "true_word": "on"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "down",
+                            "confidence": 97.62619733810425,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 82.26485252380371,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 93.23564767837524,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.18831586837769,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.75640773773193,
+                            "true_word": "right"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 96.23021483421326,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 81.79759383201599,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 90.67049026489258,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 98.53023290634155,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 98.82286787033081,
+                            "true_word": "no"
+                        }
+                    ]
+                }
+            ],
+            "proof": 236,
+            "prev_hash": "000ae1259ba2602ec1130c52957e9d45f19d0d3f995a701ac013d381895fbe06",
+            "model_hash": "2cb451f3e3bc736f6cb8b1102ed23edc9ba67bc3c18d3e8981327f881c81b6c7",
+            "hash": "008c4adc65637a34ed75173704f23e26fe8c48ae23119e32ad3675be9a25bc2d",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 17,
+            "timestamp": 1757488250.0159693,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 73.426353931427,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.9842882156372,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 88.62834572792053,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.79557991027832,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 43.65796744823456,
+                            "true_word": "down"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 92.54477024078369,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 95.01634240150452,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 98.62776398658752,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 83.51644277572632,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 98.53127598762512,
+                            "true_word": "yes"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 31.69761300086975,
+                            "true_word": "go"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 89.76221084594727,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 98.72363805770874,
+                            "true_word": "right"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 65.15691876411438,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "go",
+                            "confidence": 41.801026463508606,
+                            "true_word": "go"
+                        }
+                    ]
+                }
+            ],
+            "proof": 28,
+            "prev_hash": "008c4adc65637a34ed75173704f23e26fe8c48ae23119e32ad3675be9a25bc2d",
+            "model_hash": "e9922424369e0a2480c69bd6289ab4fb1d430a5ddea4c11aefdb8e728d41c3a5",
+            "hash": "004b4ff057bb5525838ed42b2ef2554a113d2e7949eaedd734d8cc009a14b73a",
+            "miner": "Device_A",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        },
+        {
+            "index": 18,
+            "timestamp": 1757488250.0159957,
+            "records": [
+                {
+                    "miner": "Device_A",
+                    "predictions": [
+                        {
+                            "predicted_word": "on",
+                            "confidence": 97.34019041061401,
+                            "true_word": "on"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 92.92386174201965,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "up",
+                            "confidence": 89.3218994140625,
+                            "true_word": "up"
+                        },
+                        {
+                            "predicted_word": "no",
+                            "confidence": 97.83913493156433,
+                            "true_word": "no"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 50.47255754470825,
+                            "true_word": "on"
+                        }
+                    ]
+                },
+                {
+                    "miner": "Device_B",
+                    "predictions": [
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.95569586753845,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.8117446899414,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 78.46725583076477,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "stop",
+                            "confidence": 50.93569755554199,
+                            "true_word": "stop"
+                        },
+                        {
+                            "predicted_word": "off",
+                            "confidence": 92.78696775436401,
+                            "true_word": "off"
+                        }
+                    ]
+                },
+                {
+                    "miner": "SmartSpeaker_C",
+                    "predictions": [
+                        {
+                            "predicted_word": "yes",
+                            "confidence": 99.79959726333618,
+                            "true_word": "yes"
+                        },
+                        {
+                            "predicted_word": "on",
+                            "confidence": 82.84713625907898,
+                            "true_word": "off"
+                        },
+                        {
+                            "predicted_word": "left",
+                            "confidence": 98.55573773384094,
+                            "true_word": "left"
+                        },
+                        {
+                            "predicted_word": "down",
+                            "confidence": 99.91453886032104,
+                            "true_word": "down"
+                        },
+                        {
+                            "predicted_word": "right",
+                            "confidence": 99.95204210281372,
+                            "true_word": "right"
+                        }
+                    ]
+                }
+            ],
+            "proof": 220,
+            "prev_hash": "004b4ff057bb5525838ed42b2ef2554a113d2e7949eaedd734d8cc009a14b73a",
+            "model_hash": "437c772a1b96a9f8115b8a157914a632e042dd9332730cf4f4563a1a028ca8be",
+            "hash": "0029922bc1ea826c2958b6a57ade1260d6d3182f0a6134a514697a119332172f",
+            "miner": "Device_B",
+            "signature": null,
+            "public_key": null,
+            "difficulty": 2
+        }
+    ]
+}

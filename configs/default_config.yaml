@@ -1,0 +1,119 @@
+# Default Configuration for Speech Command FL System
+
+# Experiment Settings
+experiment:
+  name: "speech_command_fl_blockchain"
+  seed: 42
+  log_level: "INFO"
+  output_dir: "Speech_command/results"
+
+# Dataset Configuration
+dataset:
+  name: "SpeechCommands"
+  version: "v0.02"  # v0.01 or v0.02
+  data_dir: "Speech_command/data/SpeechCommands"
+  target_words: ["yes", "no", "up", "down", "left", "right", "on", "off", "stop", "go"]
+  sample_rate: 16000
+  n_mfcc: 64
+  n_mels: 64
+
+# Federated Learning Parameters
+federated_learning:
+  num_clients: 10
+  num_rounds: 50  # Total FL rounds
+  client_fraction: 1.0
+  local_epochs: 5  # Minimum 5 local epochs per client
+  batch_size: 32
+  learning_rate: 0.001
+  
+  # Data Distribution
+  data_distribution: "non_iid"  # "iid" or "non_iid"
+  alpha: 0.5  # Dirichlet parameter for non-IID
+
+  # Aggregation Strategy
+  aggregation_method: "fedavg"  # "fedavg", "krum", "trimmed_mean"
+  
+  # Training Parameters
+  optimizer: "adam"  # "adam", "sgd"
+  weight_decay: 1e-4
+  momentum: 0.9  # For SGD
+  gradient_clipping: false
+  max_grad_norm: 1.0
+  early_stop_patience: 0  # 0 to disable
+  
+# Model Configuration
+model:
+  architecture: "simpleaudioclassifier"  # "simpleaudioclassifier", "gkws_cnn", "ds_cnn", "resnet18", "resnet34", "resnet50"
+  input_dim: 64
+  output_dim: 10
+  dropout: 0.2
+  width_multiplier: 1.0  # For DS-CNN
+
+# Blockchain Configuration
+blockchain:
+  consensus_mechanism: "poa"  # "pow", "poa", "pbft"
+  difficulty: 2
+  block_time: 10  # seconds
+  mining_reward: 1.0
+  
+  # PoW specific
+  target_block_time: 10
+  difficulty_adjustment_interval: 10
+  
+  # PBFT specific
+  byzantine_tolerance: 0.33  # fraction of Byzantine nodes tolerated
+
+# Privacy Configuration
+privacy:
+  enable_differential_privacy: false
+  epsilon: 1.0  # Privacy budget
+  delta: 1e-5
+  noise_multiplier: 1.1
+  max_grad_norm: 1.0
+  enable_secure_aggregation: false
+  privacy_accounting: true  # Track privacy budget
+
+# Adversarial Configuration
+adversarial:
+  enable_attacks: false
+  num_byzantine: 0  # Number of Byzantine clients
+  attack_type: "random"  # "random", "sign_flipping", "label_flipping", "gaussian", "scaling"
+  attack_strength: 1.0  # Attack magnitude
+  detection_enabled: true  # Enable Byzantine detection
+
+# IPFS Configuration (for future use)
+ipfs:
+  enabled: false
+  api_host: "127.0.0.1"
+  api_port: 5001
+  gateway_host: "127.0.0.1"
+  gateway_port: 8080
+
+# Reinforcement Learning (for future use)
+reinforcement_learning:
+  enabled: false
+  client_agent:
+    algorithm: "dqn"
+    learning_rate: 0.001
+    epsilon: 0.1
+  miner_agent:
+    algorithm: "ppo"
+    learning_rate: 0.0003
+
+# Logging and Monitoring
+logging:
+  log_dir: "Speech_command/logs"
+  log_to_file: true
+  log_to_tensorboard: true
+  log_to_wandb: false
+  wandb_project: "speech_command_fl"
+  
+# Hardware Configuration
+hardware:
+  device: "auto"  # "cpu", "cuda", "auto"
+  num_workers: 4
+
+# Aggregation Configuration
+aggregation:
+  krum_f: 1  # Number of Byzantine clients for Krum
+  trimmed_mean_beta: 0.1  # Trim fraction for Trimmed Mean
