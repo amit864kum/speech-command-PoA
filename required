@@ -9,5 +9,23 @@ graphviz
 faker
 pip install torch torchaudio numpy (for make sure all the speech/audio within the data folder)
 
-To run this code, here is the command to run 
+
+
+# To run this code, here is the command to run 
+cd Speech_command
+python scripts/run_experiments.py
+python scripts/visualize_results.py
+type results\experiments\experiment_summary.txt
+dir results\experiments\plots
+
+
+
+
+# Step 1: Run basic demo (optional, 5 minutes)
 python ehr_main.py
+
+# Step 2: Run comprehensive experiments (REQUIRED, 55 minutes)
+python scripts/run_experiments.py
+
+# Step 3: Generate plots (REQUIRED, 5 minutes)
+python scripts/visualize_results.py
