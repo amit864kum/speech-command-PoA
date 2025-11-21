@@ -225,15 +225,11 @@ See [ENHANCEMENT_PLAN.md](ENHANCEMENT_PLAN.md) for detailed development phases:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📞 Contact
-
-- **Author**: Research Team
-- **Email**: [your-email@domain.com]
-- **GitHub**: [https://github.com/amit864kum/Speech_command](https://github.com/amit864kum/Speech_command)
+- **GitHub**: [https://github.com/amit864kum/Speech_command](https://github.com/amit864kum/speech-command-PoA)
+- **Portfolio**: [https://amit-three.vercel.app/](https://amit-three.vercel.app/)
 
 ## 🙏 Acknowledgments
 
